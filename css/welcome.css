@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", system-ui;
+}
+
+body {
+    padding: 40px;
+    background-color: white;
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #db2894;
+}
+
+a {
+    display: inline-block;
+    background-color: #db2894;
+    color: #fff;
+    padding: 12px 20px;
+    margin-right: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+a:nth-child(2) {
+    background-color: #db2894;
+}
+
+a:hover {
+    background-color: #db2894;
+}
+
+a:nth-child(2):hover {
+    background-color: #db2894;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table thead th {
+    padding: 12px;
+    background-color: #f9f9f9;
+    border-bottom: 2px solid #e0e0e0;
+    text-align: left;
+    color: #333;
+    font-size: 16px;
+}
+
+table tbody td {
+    padding: 12px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+td a {
+    display: inline-block;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #db2894;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 5px;
+    transition: background-color 0.3s ease;
+}
+
+td a:nth-child(2) {
+    background-color: red;
+}
+
+td a:hover {
+    background-color: #bf236f;
+}
+
+td a:nth-child(2):hover {
+    background-color: #d32f2f;
+}
